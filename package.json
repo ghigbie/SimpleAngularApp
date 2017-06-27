@@ -1,0 +1,19 @@
+{
+  "name": "angular-playground",
+  "version": "1.0.0",
+  "description": "This is a simple angular app with a node/express server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghigbie/SimpleAngularApp.git"
+  },
+  "author": "George Higbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghigbie/SimpleAngularApp/issues"
+  },
+  "homepage": "https://github.com/ghigbie/SimpleAngularApp#readme"
+}
