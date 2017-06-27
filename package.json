@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ghigbie/SimpleAngularApp/issues"
   },
-  "homepage": "https://github.com/ghigbie/SimpleAngularApp#readme"
+  "homepage": "https://github.com/ghigbie/SimpleAngularApp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
