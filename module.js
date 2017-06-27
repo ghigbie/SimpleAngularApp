@@ -1,16 +1,16 @@
 /* global angular */
+var main = '<div><h1>This is the MAIN page.</h1></div>';
+var about = '<div><h1>The is the ABOUT page.</h1></div>';
+var products = '<div><h1>The is the PRODUCTS page.</h1></div>';
 
-const app = angular.module('simpleApp', ['ngRoute']);
+angular.module('simpleApp', ['ngRoute']).config(config);
 
-app.config( ($routeProvider) =>{
-    $routeProvider
-    .when('/', 
-        {
-            template: '<h1>Angular template home page<h1>'
-        })
-    .when('/about', 
-        {
-            template: '<h1>Angular template about page</h1>'
-        })
-    .otherwise({redirectTo: '/'});
-});
+function config($routeProvider){
+	$routeProvider.when('/', {
+		template: main
+	}).when('/about', {
+		template: about
+	}).when('/products', {
+		template: products
+	});
+}
